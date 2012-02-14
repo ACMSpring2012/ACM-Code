@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class main {
 	
-	static double maxVal = (int)Math.pow(2, 31); //biggest value allowed
+	static int maxVal = (int)Math.pow(2, 31); //biggest value allowed
 	static ArrayList<Integer> primes = new ArrayList<Integer>(5000);
 	/**
 	 * @param args
@@ -33,7 +33,7 @@ public class main {
 			}
 		}
 		factors.add(v);
-		return factors;		
+		return factors;
 	}
 	
 	public static void generatePrimes(){
@@ -48,5 +48,4 @@ public class main {
 			}
 		}
 	}
-
 }
